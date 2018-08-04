@@ -1,0 +1,22 @@
+function data() return {
+	animations = {
+
+	},
+	matConfigs = { { 0, }, },
+	subMeshes = { {
+		indices = {
+			normal = { count = 2208, offset = 18432, },
+			position = { count = 2208, offset = 20640, },
+			tangent = { count = 2208, offset = 22848, },
+			uv0 = { count = 2208, offset = 25056, },
+		},
+		materials = { "vehicle/train/class_43_0.mtl" },
+	}, },
+	vertexAttr =
+	{
+		normal = { count = 4608, numComp = 3, offset = 0, },
+		position = { count = 4608, numComp = 3, offset = 4608, },
+		tangent = { count = 6144, numComp = 4, offset = 9216, },
+		uv0 = { count = 3072, numComp = 2, offset = 15360, },
+	},
+} end

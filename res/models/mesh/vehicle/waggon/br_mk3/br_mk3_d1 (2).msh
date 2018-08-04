@@ -1,0 +1,40 @@
+function data() return {
+	animations = {
+		opend1 = {
+			type = "KEYFRAME",
+			params = {
+				origin = {
+					0, 0, 0, 
+				},
+				keyframes = {
+					{
+						time = 0,
+						rot = { 0, 0, 0 },
+						transl = { 0, 0, 0 }
+					}, {
+						time = 1100,
+						rot = { 100, 0, 0 },
+						transl = { 0, 0, 0 }
+					}
+				}
+			}
+		},
+	},
+	matConfigs = { { 0, }, },
+	subMeshes = { {
+		indices = {
+			normal = { count = 960, offset = 8160, },
+			position = { count = 960, offset = 9120, },
+			tangent = { count = 960, offset = 10080, },
+			uv0 = { count = 960, offset = 11040, },
+		},
+		materials = { "vehicle/waggon/br_mk3.mtl" },
+	}, },
+	vertexAttr =
+	{
+		normal = { count = 2040, numComp = 3, offset = 0, },
+		position = { count = 2040, numComp = 3, offset = 2040, },
+		tangent = { count = 2720, numComp = 4, offset = 4080, },
+		uv0 = { count = 1360, numComp = 2, offset = 6800, },
+	},
+} end
