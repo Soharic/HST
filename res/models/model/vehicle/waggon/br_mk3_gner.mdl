@@ -1,0 +1,162 @@
+local vec3 = require "vec3"
+local transf = require "transf"
+
+
+function data()
+return {
+	boundingInfo = {
+		bbMax = {
+			11.44, 1.6869109869003, 4.3580950737, 
+		},
+		bbMin = {
+			-11.44, -1.6869109869003, -0.63750797510147, 
+		},
+		
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+		
+	},
+	lods = {
+		{
+			animations = {
+				
+			},
+			children = {
+				{
+					id = "vehicle/waggon/br_mk3/gner_mk3_body.msh",
+					transf = {
+						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+					},
+					type = "MESH",
+					
+				}, {
+					id = "vehicle/waggon/br_mk3/gner_mk3_d1.msh",
+					transf = {
+						1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -11.04, -1.264, 0, 1, 
+					},
+					type = "MESH",
+					
+				}, {
+					id = "vehicle/waggon/br_mk3/gner_mk3_d1.msh",
+					transf = {
+						-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 11.04, -1.264, 0, 1, 
+					},
+					type = "MESH",
+					
+				}, {
+					id = "vehicle/waggon/br_mk3/gner_mk3_d1.msh",
+					transf = {
+						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0,  -11.04, 1.264, 0, 1, 
+					},
+					type = "MESH",
+					
+				}, {
+					id = "vehicle/waggon/br_mk3/gner_mk3_d1.msh",
+					transf = {
+						-1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.04, 1.264, 0, 1, 
+					},
+					type = "MESH",
+					
+				}, {
+					id = "vehicle/waggon/br_mk3_bogie.grp",
+					transf = {
+						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.96, 0, 0, 1, 
+					},
+					type = "GROUP",
+					
+				},{
+					id = "vehicle/waggon/br_mk3_bogie.grp",
+					transf = {
+						-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.96, 0, 0, 1, 
+					},
+					type = "GROUP",
+					
+				},
+			},
+			events = {
+				open_all_doors = {
+					[2] = { name = "opend1", forward = true },
+					[3] = { name = "opend1", forward = true },
+					[4] = { name = "opend1", forward = true },
+					[5] = { name = "opend1", forward = true },
+				},
+				close_all_doors = {
+					[2] = { name = "opend1", forward = false },
+					[3] = { name = "opend1", forward = false },
+					[4] = { name = "opend1", forward = false },
+					[5] = { name = "opend1", forward = false },
+				},
+				open_doors_left = {
+					[4] = { name = "opend1", forward = true },
+					[5] = { name = "opend1", forward = true },
+				},
+				close_doors_left = {
+					[4] = { name = "opend1", forward = false },
+					[5] = { name = "opend1", forward = false },
+				},
+				open_doors_right = {
+					[2] = { name = "opend1", forward = true },
+					[3] = { name = "opend1", forward = true },
+				},
+				close_doors_right = {
+					[2] = { name = "opend1", forward = false },
+					[3] = { name = "opend1", forward = false },
+				},
+			},
+			matConfigs = {
+				{
+					0, 0, 0, 0, 0, 0, 0
+				}, 
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 2050,
+			
+		}, 
+	},
+	metadata = {
+		description = {
+			name = _("Mk. 3 Coach"),
+			description = _(
+			"Designed to compete against air and road in \n"..
+			"britan, this carriage is capable of 125 mph.")
+		},		
+		railVehicle = {
+			topSpeed = 201.0,
+			weight = 33.91,
+			configs = {
+				{
+					axles = {
+						"vehicle/waggon/br_mk3/br_mk3_w1.msh",
+					}
+				}
+			},			
+			soundSet = "waggon_modern"
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			multipleUnitOnly = true,
+			capacities = {
+				{ type = "PASSENGERS", capacity = 74 }
+			},
+			loadSpeed = 2
+		},
+		availability = {
+			yearFrom = 1996,
+			yearTo = 2008
+		},
+		cost = {
+			price = -1
+		},
+		maintenance = {
+			runningCosts = -1,
+			lifespan = 55
+		}
+	},
+	
+}
+end
