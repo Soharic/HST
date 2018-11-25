@@ -1,0 +1,22 @@
+function data() return {
+	animations = {
+
+	},
+	matConfigs = { { 0, }, },
+	subMeshes = { {
+		indices = {
+			normal = { count = 136260, offset = 1104192, },
+			position = { count = 136260, offset = 1240452, },
+			tangent = { count = 136260, offset = 1376712, },
+			uv0 = { count = 136260, offset = 1512972, },
+		},
+		materials = { "vehicle/train/class_43_gner_0.mtl" },
+	}, },
+	vertexAttr =
+	{
+		normal = { count = 276048, numComp = 3, offset = 0, },
+		position = { count = 276048, numComp = 3, offset = 276048, },
+		tangent = { count = 368064, numComp = 4, offset = 552096, },
+		uv0 = { count = 184032, numComp = 2, offset = 920160, },
+	},
+} end
