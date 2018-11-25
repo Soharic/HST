@@ -8,7 +8,7 @@ return {
 		},
 		map_color_reflect = {
 			compressionAllowed = true,
-			fileName = "models/vehicle/waggon/gner_mk3/br_mk3.tga",
+			fileName = "models/vehicle/waggon/gner_mk3.tga",
 			magFilter = "LINEAR",
 			minFilter = "LINEAR_MIPMAP_LINEAR",
 			mipmapAlphaScale = 0,
@@ -30,7 +30,7 @@ return {
 		},
 		map_normal = {
 			compressionAllowed = false,
-			fileName = "models/vehicle/waggon/br_mk3/br_mk3_normal.tga",
+			fileName = "models/vehicle/waggon/br_mk3_normal.tga",
 			magFilter = "LINEAR",
 			minFilter = "LINEAR_MIPMAP_LINEAR",
 			mipmapAlphaScale = 0,
