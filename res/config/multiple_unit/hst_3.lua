@@ -12,7 +12,7 @@ return {
 		{ name = "vehicle/waggon/br_mk3_gner.mdl", forward = true },
 		{ name = "vehicle/train/class_43_gner_1.mdl", forward = true },
 	},
-	name = _("GNER HST (2 + 8)"),
-	desc = _("The British High Speed Train topped and tailed by Class 43 power cars.")
+	name = _("GNER HST (2+8)"),
+	desc = _("Eight Mk3 coaches in GNER Livery topped and tailed by Class 43 power cars.")
 }
 end
