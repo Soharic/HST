@@ -12,12 +12,17 @@ return {
 		{
 			name = "9th Wonder", -- author name
 			role = "CREATOR", -- OPTIONAL "CREATOR", "CO_CREATOR", "TESTER" or "BASED_ON" or "OTHER"
-			tfnetId = "" -- OPTIONAL train-fever-net author id
+			tfnetId = "26464" -- OPTIONAL train-fever-net author id
 		},		
 		{
-		name = "mfurseman", -- author name
-		role = "BASED_ON", -- OPTIONAL "CREATOR", "CO_CREATOR", "TESTER" or "BASED_ON" or "OTHER"
-		tfnetId = "" -- OPTIONAL train-fever-net author id
+			name = "mfurseman",
+			role = "BASED_ON",
+			tfnetId = ""
+		},
+		{
+			name = "ThisIsAUsername",
+			role = "CO_CREATOR",
+			tfnetId = ""
 		}
 	},
 	tags = { "locomotive", "diesel", "vehicle", "train", "passenger", "set", "British", "Europe" },
