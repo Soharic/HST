@@ -1,0 +1,107 @@
+local vec3 = require "vec3"
+local transf = require "transf"
+
+
+function data()
+return {
+	boundingInfo = {
+		bbMax = {
+			8.790, 1.6869109869003, 4.4580950737, 
+		},
+		bbMin = {
+			-8.790, -1.6869109869003, -0.63750797510147, 
+		},
+		
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+		
+	},
+	lods = {
+		{
+			animations = {
+				
+			},
+			children = {
+				{
+					id = "vehicle/train/class_43_lod_0_bogie.grp",
+					transf = {
+						-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.0, 0, 1.7, 1, 
+					},
+					type = "GROUP",
+					
+				},{
+					id = "vehicle/train/class_43_lod_0_bogie.grp",
+					transf = {
+						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.5, 0, 1.7, 1, 
+					},
+					type = "GROUP",
+					
+				}, {
+					id = "vehicle/train/class_43/class_43_0.msh",
+					transf = {
+						-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 1.7, 1, 
+					},
+					type = "MESH",
+					
+				},
+			},
+			events = {
+				
+			},
+			matConfigs = {
+				{
+					0, 0, 0, 
+				}, 
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 2050,
+			
+		}, 
+	},
+	metadata = {
+		description = {
+			name = _("Class 43 (Reverse)"),
+			description = _("Use at the rear of dual headed high speed trains.")
+		},
+
+		railVehicle = {
+			topSpeed = 201,
+			weight = 70.25,
+			engines = {
+				{ type = "DIESEL", power = 2250.0, tractiveEffort = 210.0 }
+			},
+			configs = {
+				{
+					axles = {
+						"vehicle/train/class_43/class_43_w1.msh",
+					}
+				}
+			},			
+			soundSet = { name = "train_diesel", horn = "vehicle/train_diesel/horn_13_freight.wav" }
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			multipleUnitOnly = true,
+			
+		}, 
+		availability = {
+			yearFrom = 1996,
+			yearTo = 2008
+		},
+		cost = {
+			price = 9700000
+		},
+		maintenance = {
+			runningCosts = 1980000,
+			lifespan = 45
+		},
+		
+	},
+	
+}
+end
