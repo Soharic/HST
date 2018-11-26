@@ -78,7 +78,7 @@ return {
 			configs = {
 				{
 					axles = {
-						"vehicle/train/gner_class_43/gner_class_43_w1.msh",
+						"vehicle/train/br_class_43/br_class_43_w1.msh",
 					}
 				}
 			},			
