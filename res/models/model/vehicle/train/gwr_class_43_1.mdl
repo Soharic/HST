@@ -41,7 +41,7 @@ return {
 					type = "GROUP",
 					
 				}, {
-					id = "vehicle/train/gner_class_43/gner_class_43_0.msh",
+					id = "vehicle/train/gwr_class_43/gwr_class_43_0.msh",
 					transf = {
 						-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 1.7, 1, 
 					},
@@ -90,8 +90,8 @@ return {
 			
 		}, 
 		availability = {
-			yearFrom = 1996,
-			yearTo = 2008
+			yearFrom = 2015,
+			yearTo = 2030
 		},
 		cost = {
 			price = 9700000

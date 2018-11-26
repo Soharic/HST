@@ -27,35 +27,35 @@ return {
 			},
 			children = {
 				{
-					id = "vehicle/waggon/br_mk3/gwr_mk3_body.msh",
+					id = "vehicle/waggon/gwr_mk3/gwr_mk3_body.msh",
 					transf = {
 						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
 					},
 					type = "MESH",
 					
 				}, {
-					id = "vehicle/waggon/br_mk3/gwr_mk3_d1.msh",
+					id = "vehicle/waggon/gwr_mk3/gwr_mk3_d1.msh",
 					transf = {
 						1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -11.04, -1.264, 0, 1, 
 					},
 					type = "MESH",
 					
 				}, {
-					id = "vehicle/waggon/br_mk3/gwr_mk3_d1.msh",
+					id = "vehicle/waggon/gwr_mk3/gwr_mk3_d1.msh",
 					transf = {
 						-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 11.04, -1.264, 0, 1, 
 					},
 					type = "MESH",
 					
 				}, {
-					id = "vehicle/waggon/br_mk3/gwr_mk3_d1.msh",
+					id = "vehicle/waggon/gwr_mk3/gwr_mk3_d1.msh",
 					transf = {
 						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0,  -11.04, 1.264, 0, 1, 
 					},
 					type = "MESH",
 					
 				}, {
-					id = "vehicle/waggon/br_mk3/gwr_mk3_d1.msh",
+					id = "vehicle/waggon/gwr_mk3/gwr_mk3_d1.msh",
 					transf = {
 						-1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.04, 1.264, 0, 1, 
 					},
@@ -123,7 +123,7 @@ return {
 			name = _("Mk. 3 Coach"),
 			description = _(
 			"Designed to compete against air and road in \n"..
-			"Britan, this carriage is capable of 125 mph.")
+			"britan, this carriage is capable of 125 mph.")
 		},		
 		railVehicle = {
 			topSpeed = 201.0,
@@ -146,8 +146,8 @@ return {
 			loadSpeed = 2
 		},
 		availability = {
-			yearFrom = 2016,
-			yearTo = 2020
+			yearFrom = 2015,
+			yearTo = 2030
 		},
 		cost = {
 			price = -1
