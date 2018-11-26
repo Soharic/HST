@@ -146,7 +146,7 @@ return {
 			loadSpeed = 2
 		},
 		availability = {
-			yearFrom = 2015,
+			yearFrom = 2018,
 			yearTo = 2030
 		},
 		cost = {
