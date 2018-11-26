@@ -10,7 +10,7 @@ function data() return {
 			tangent = { count = 474312, offset = 4778256, },
 			uv0 = { count = 474312, offset = 5252568, },
 		},
-		materials = { "vehicle/train/class_43_gwr_0.mtl" },
+		materials = { "vehicle/train/gwr_class_43_0.mtl" },
 	}, },
 	vertexAttr =
 	{
