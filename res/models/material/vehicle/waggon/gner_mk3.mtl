@@ -1,0 +1,62 @@
+function data()
+return {
+	params = {
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+			
+		},
+		map_color_reflect = {
+			compressionAllowed = true,
+			fileName = "models/vehicle/waggon/gner_mk3.tga",
+			magFilter = "LINEAR",
+			minFilter = "LINEAR_MIPMAP_LINEAR",
+			mipmapAlphaScale = 0,
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+			
+		},
+		map_env = {
+			compressionAllowed = true,
+			fileName = "c.tga",
+			magFilter = "LINEAR",
+			minFilter = "LINEAR",
+			mipmapAlphaScale = 0,
+			type = "CUBE_MAP",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+			
+		},
+		map_normal = {
+			compressionAllowed = false,
+			fileName = "models/vehicle/waggon/br_mk3_normal.tga",
+			magFilter = "LINEAR",
+			minFilter = "LINEAR_MIPMAP_LINEAR",
+			mipmapAlphaScale = 0,
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+			
+		},
+		polygon_offset = {
+			factor = 0,
+			units = 0,
+			
+		},
+		props = {
+			coeffs = {
+				1, 1, 1, 10, 
+			},
+			
+		},
+		two_sided = {
+			twoSided = true,
+			
+		},
+		
+	},
+	type = "REFLECTIVE_NRML_MAP",
+	
+}
+end
