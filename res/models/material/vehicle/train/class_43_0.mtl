@@ -8,7 +8,7 @@ return {
 		},
 		map_color_reflect = {
 			compressionAllowed = true,
-			fileName = "models/vehicle/train/br_class_43.tga",
+			fileName = "models/vehicle/train/class_43/class_43.tga",
 			magFilter = "LINEAR",
 			minFilter = "LINEAR_MIPMAP_LINEAR",
 			mipmapAlphaScale = 0,
@@ -30,7 +30,7 @@ return {
 		},
 		map_normal = {
 			compressionAllowed = false,
-			fileName = "models/vehicle/train/br_class_43_normal.tga",
+			fileName = "models/vehicle/train/class_43/class_43_normal.tga",
 			magFilter = "LINEAR",
 			minFilter = "LINEAR_MIPMAP_LINEAR",
 			mipmapAlphaScale = 0,

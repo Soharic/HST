@@ -27,21 +27,21 @@ return {
 			},
 			children = {
 				{
-					id = "vehicle/train/br_class_43_bogie.grp",
+					id = "vehicle/train/class_43_lod_0_bogie.grp",
 					transf = {
 						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.000, 0, 1.7, 1, 
 					},
 					type = "GROUP",
 					
 				},{
-					id = "vehicle/train/br_class_43_bogie.grp",
+					id = "vehicle/train/class_43_lod_0_bogie.grp",
 					transf = {
 						-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.5, 0, 1.7, 1, 
 					},
 					type = "GROUP",
 					
 				}, {
-					id = "vehicle/train/br_class_43/br_class_43_0.msh",
+					id = "vehicle/train/class_43/class_43_0.msh",
 					transf = {
 						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.7, 1, 
 					},
@@ -80,7 +80,7 @@ return {
 			configs = {
 				{
 					axles = {
-						"vehicle/train/br_class_43/br_class_43_w1.msh",
+						"vehicle/train/class_43/class_43_w1.msh",
 					}
 				}
 			},			
