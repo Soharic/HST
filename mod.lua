@@ -1,9 +1,9 @@
-﻿require "tableutil"
+require "tableutil"
 
 function data()
 return {
 	info = {
-	minorVersion = 0,
+	minorVersion = v1.08,
 	severityAdd = "NONE",
 	severityRemove = "NONE",
 	name = _("British Rail Class 43 HST"),
