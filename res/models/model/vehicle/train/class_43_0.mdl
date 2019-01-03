@@ -84,7 +84,7 @@ return {
 					}
 				}
 			},			
-			soundSet = { name = "train_diesel", horn = "vehicle/train_diesel/horn_13_freight.wav" }
+			soundSet = { name = "class_43", horn = "vehicle/hst/2_tone.mp3" }
 		},
 		transportVehicle = {
 			carrier = "RAIL",
