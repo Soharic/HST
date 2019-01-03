@@ -3,7 +3,7 @@
 function data()
 return {
 	info = {
-	minorVersion =  v1.08,
+	minorVersion =  0,
 	severityAdd = "NONE",
 	severityRemove = "NONE",
 	name = _("British Rail Class 43 HST"),
