@@ -141,7 +141,7 @@ return {
 			carrier = "RAIL",
 			multipleUnitOnly = true,
 			capacities = {
-				{ type = "PASSENGERS", capacity = 304 }
+				{ type = "PASSENGERS", capacity = 243 }
 			},
 			loadSpeed = 2
 		},
